@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <h1>Github User Detective ...</h1><br/><br/><br/>
-      <Searchbar onSearch={setUsername} /> {/* Pass username setter */}
+      <Searchbar onSearch={setUsername} /> 
       
       {loading && <Loader />}
       {error && <Errormessage message={error} />}
